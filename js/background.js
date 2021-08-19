@@ -12,9 +12,8 @@ const images = [
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
-
 const image = document.createElement("img");
-
+image.id = "background-img";
 image.src = `img/${chosenImage}`;
 
 document.body.prepend(image);

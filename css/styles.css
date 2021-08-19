@@ -1,3 +1,14 @@
+/*import css*/
+@import "reset.css";
+@import "background.css";
+@import "header.css";
+@import "clock-greeting.css";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
 .hidden {
   display: none;
 }
