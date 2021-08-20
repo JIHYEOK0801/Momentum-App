@@ -1,4 +1,4 @@
-const toDoForm = document.getElementById("todo-form");
+const toDoForm = document.querySelector("#todo-form");
 const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.querySelector("#todo-list");
 let toDos = [];
@@ -30,6 +30,12 @@ function paintToDo(newToDo) {
 
 function handleToDoSubmit(event) {
   event.preventDefault();
+
+  if (toDos.length >= 6) {
+    alert("Please remove some lists!!!! (max lists : 6)");
+    return;
+  }
+
   const newToDo = toDoInput.value;
   toDoInput.value = "";
   const newToDoObj = {

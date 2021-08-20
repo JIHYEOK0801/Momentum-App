@@ -20,23 +20,31 @@
       <h2 id="clock">00:00</h2>
       <form class="hidden login-form-initiallayout" id="login-form">
         <span id="greeting-letter">Hello, what is your name?</span>
-        <input required maxlength="10" type="text" placeholder="" autofocus />
+        <input
+          required
+          maxlength="10"
+          type="text"
+          placeholder=""
+          autofocus
+          spellcheck="false"
+        />
         <button id="login-button">Log In</button>
       </form>
       <h1 id="greeting" class="hidden"></h1>
     </div>
 
-    <form id="todo-form">
+    <form id="todo-form" class="hidden">
       <input
         required
         maxlength="10"
         type="text"
         placeholder="Write a To Do and Press Enter"
         required
+        spellcheck="false"
       />
     </form>
 
-    <div id="todo-list-box">
+    <div id="todo-list-box" class="hidden">
       <ul id="todo-list"></ul>
     </div>
 

@@ -1,4 +1,4 @@
-#todo-form {
+.todo-form-layout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@
 #todo-form input:focus::placeholder {
   color: rgba(0, 0, 0, 0);
 }
-#todo-list-box {
+.todo-list-box-layout {
   display: flex;
   justify-content: center;
 }
@@ -43,6 +43,7 @@
   text-align: center;
   font-size: 40px;
   color: white;
+  width: 480px;
 }
 
 #todo-list li {
@@ -61,7 +62,9 @@
   cursor: pointer;
 }
 
+#todo-list li:hover {
+  font-size: 43px;
+}
 .todo-delete-button:hover {
   color: lawngreen;
-  font-size: 45px;
 }
