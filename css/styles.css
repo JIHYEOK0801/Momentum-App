@@ -3,11 +3,14 @@
 @import "background.css";
 @import "header.css";
 @import "clock-greeting.css";
+@import "todo.css";
+@import "quote.css";
 
 body {
   width: 100vw;
   height: 100vh;
   font-family: "Open Sans", sans-serif;
+  background-color: black;
 }
 .hidden {
   display: none;

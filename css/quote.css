@@ -1,0 +1,19 @@
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+
+  width: 100vw;
+  height: 60px;
+  color: white;
+  font-weight: 600;
+}
+#quote span:first-child {
+  font-size: 25px;
+}
+#quote span:last-child {
+  font-size: 20px;
+}

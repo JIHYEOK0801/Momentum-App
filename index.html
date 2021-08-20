@@ -18,23 +18,25 @@
 
     <div id="clock-greeting">
       <h2 id="clock">00:00</h2>
-      <form class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="Hello, what is your name?"
-        />
-        <button>Log In</button>
+      <form class="hidden login-form-initiallayout" id="login-form">
+        <span id="greeting-letter">Hello, what is your name?</span>
+        <input required maxlength="10" type="text" placeholder="" autofocus />
+        <button id="login-button">Log In</button>
       </form>
       <h1 id="greeting" class="hidden"></h1>
     </div>
 
     <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
+      <input
+        required
+        maxlength="10"
+        type="text"
+        placeholder="Write a To Do and Press Enter"
+        required
+      />
     </form>
 
-    <div>
+    <div id="todo-list-box">
       <ul id="todo-list"></ul>
     </div>
 
@@ -49,5 +51,9 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/cc7740ad1e.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,67 @@
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todo-form input {
+  margin: 10px 0px;
+  height: 60px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0);
+  /*border: none;
+  border-bottom: 2px solid white;*/
+  border: 3px solid white;
+  border-radius: 40px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  transition: all 0.1s linear;
+}
+#todo-form input:focus {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 3px solid white;
+}
+#todo-form input::placeholder {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+#todo-form input:focus::placeholder {
+  color: rgba(0, 0, 0, 0);
+}
+#todo-list-box {
+  display: flex;
+  justify-content: center;
+}
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px 0px;
+}
+
+.todo-delete-button {
+  margin-left: 2px;
+  font-size: 40px;
+  color: tomato;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.todo-delete-button:hover {
+  color: lawngreen;
+  font-size: 45px;
+}

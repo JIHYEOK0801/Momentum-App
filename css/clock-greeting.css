@@ -8,18 +8,38 @@
   color: white;
   font-weight: 600px;
   font-size: 120px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-
-#login-form input::placeholder {
+#greeting-letter,
+#greeting {
   color: white;
-  font
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.login-form-initiallayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #login-form input[placeholder] {
   background-color: rgba(1, 1, 1, 0);
   border: none;
   border-bottom: 3px solid white;
+  margin-bottom: 20px;
   font-size: 70px;
   color: white;
   text-align: center;
+  width: 600px;
+}
+#login-button {
+  background-color: rgba(1, 1, 1, 0);
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
 }
